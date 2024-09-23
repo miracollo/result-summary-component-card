@@ -1,0 +1,161 @@
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url("/assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "hanken grotesk";
+}
+
+section {
+  display: flex;
+}
+
+.left-side {
+  text-align: center;
+  background: linear-gradient(to top, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  width: 300px;
+  padding: 16px 32px 16px 32px;
+  border-radius: 20px;
+  z-index: 10;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+  margin-left: 50px;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+.react {
+  display: flex;
+  padding: 15px 20px;
+  gap: 0.5rem;
+}
+
+.btn {
+  margin-top: 40px;
+  margin-left: 60px;
+}
+
+.button {
+  text-align: center;
+  padding: 13px 100px;
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 40px;
+}
+
+.head {
+  color: hwb(224 19% 65%);
+  margin-left: 50px;
+}
+
+.result {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: lightgray;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.number {
+  background: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+  margin-top: 30px;
+  margin-left: 20px;
+  align-items: center;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.number h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 80px;
+  padding-top: 30px;
+}
+
+.number span {
+  color: lightgray;
+}
+
+h2 {
+  margin-top: 20px;
+  color: hsl(0, 0%, 100%);
+}
+
+.letters {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: lightgray;
+  font-weight: 700;
+}
+
+.right-side {
+  width: 380px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px 20px 20px 10px;
+  box-shadow: 20px 20px 20px hsl(221, 100%, 96%);
+  position: relative;
+  right: 22px;
+}
+
+.svg-1 {
+  color: hwb(0 34% 0%);
+  font-weight: 700;
+  /* padding-bottom: 20px; */
+}
+
+.svg-2 {
+  color: hsl(39, 100%, 56%);
+  font-weight: 700;
+  /* padding-bottom: 20px; */
+}
+
+.svg-3 {
+  color: hsl(166, 100%, 37%);
+  font-weight: 700;
+  /* padding-bottom: 20px; */
+}
+
+.svg-4 {
+  color: hsl(234, 85%, 45%);
+  font-weight: 700;
+  /* padding-bottom: 5px; */
+}
+
+.numerator {
+  color: hsl(224, 30%, 27%);
+  font-weight: 800;
+  /* padding-bottom: 20px; */
+}
+
+.bg-pink {
+  background-color: hsl(0, 38%, 95%);
+}
+
+.bg-yellow {
+  background-color: hsl(39, 61%, 90%);
+}
+
+.bg-green {
+  background-color: hsl(168, 42%, 95%);
+}
+
+.bg-blue {
+  background-color: hsl(233, 63%, 95%);
+}
