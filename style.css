@@ -66,3 +66,100 @@ section {
   padding: 0px 40px 30px 40px;
   color: hsl(241, 100%, 89%);
 }
+
+.right-side > h2 {
+  color: hsl(224, 30%, 27%);
+  margin: 25px 0 25px 30px;
+}
+
+.right-side {
+  height: 400px;
+  width: 300px;
+  background: hsl(0, 0%, 100%);
+  border-radius: 0px 20px 20px 0px;
+  border: 0.5px solid hsl(221, 100%, 96%);
+  box-shadow: 8px 8px 10px 0 hsl(221, 100%, 96%);
+  z-index: -1;
+  margin-left: -1rem;
+}
+
+.flex-bg-pink {
+  display: flex;
+  justify-content: space-around;
+  background-color: hsl(0, 40%, 98%);
+  padding: 10px;
+  margin: 10px 30px 0px 30px;
+  border-radius: 5px;
+}
+
+.flex-bg-yellow {
+  display: flex;
+  justify-content: space-around;
+  background-color: hsl(27, 73%, 97%);
+  padding: 10px;
+  margin: 10px 30px 0px 30px;
+  border-radius: 5px;
+}
+
+.flex-bg-green {
+  display: flex;
+  justify-content: space-around;
+  background-color: hsl(156, 56%, 98%);
+  padding: 10px;
+  margin: 10px 30px 0px 30px;
+  border-radius: 5px;
+}
+
+.flex-bg-blue {
+  display: flex;
+  justify-content: space-around;
+  background-color: hsl(240, 64%, 98%);
+  padding: 10px;
+  margin: 10px 30px 40px 30px;
+  border-radius: 5px;
+}
+
+.react {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn {
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(224, 30%, 27%);
+  padding: 12px;
+  margin: 0 30px 0 30px;
+  border-radius: 25px;
+}
+
+.svg-1 {
+  color: hsl(0, 100%, 67%);
+}
+
+.svg-2 {
+  color: hsl(39, 100%, 56%);
+}
+
+.svg-3 {
+  color: hsl(166, 100%, 37%);
+}
+
+.svg-4 {
+  color: hsl(234, 85%, 45%);
+}
+
+.numerator {
+  color: hsl(224, 30%, 27%);
+  font-weight: 700;
+}
+
+.numerator-2 {
+  color: hsl(241, 100%, 89%);
+  font-weight: 700;
+}
+.numerator-2 span {
+  color: hsl(241, 100%, 89%);
+}

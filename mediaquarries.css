@@ -1,0 +1,20 @@
+@media screen and (max-width: 430px) {
+  body {
+    margin-bottom: 30px;
+    height: 100vh;
+  }
+  .left-side {
+    margin-top: 30px;
+  }
+
+  .right-side {
+    border-radius: 20px;
+    border: 5px solid hsl(221, 100%, 96%);
+    box-shadow: 20px;
+    margin-left: 0.5rem;
+  }
+
+  .attribution {
+    margin-top: 20rem;
+  }
+}
